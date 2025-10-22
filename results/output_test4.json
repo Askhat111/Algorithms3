@@ -1,0 +1,29 @@
+{
+    "num_vertices": 5,
+    "operations": 12,
+    "total_cost": 8,
+    "execution_time_ms": 0,
+    "num_edges": 6,
+    "mst": [
+        {
+            "start": "A",
+            "weight": 2,
+            "end": "B"
+        },
+        {
+            "start": "A",
+            "weight": 3,
+            "end": "C"
+        },
+        {
+            "start": "C",
+            "weight": 1,
+            "end": "D"
+        },
+        {
+            "start": "D",
+            "weight": 2,
+            "end": "E"
+        }
+    ]
+}
