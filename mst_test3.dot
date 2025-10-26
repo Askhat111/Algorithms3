@@ -1,0 +1,14 @@
+graph G {
+  A;
+  B;
+  C;
+  D;
+  E;
+  F;
+  A -- B [label="0.70"];
+  A -- C [label="0.20"];
+  B -- D [label="0.50"];
+  C -- D [label="0.30"];
+  C -- E [label="0.40"];
+  D -- F [label="0.60"];
+}

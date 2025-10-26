@@ -1,0 +1,12 @@
+graph G {
+  A;
+  B;
+  C;
+  D;
+  E;
+  A -- B [label="0.10"];
+  B -- C [label="0.20"];
+  C -- A [label="0.30"];
+  A -- D [label="0.40"];
+  D -- E [label="0.50"];
+}

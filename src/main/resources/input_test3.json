@@ -1,11 +1,11 @@
 {
-  "vertices": ["A", "B", "C", "D", "E"],
+  "vertices_count": 6,
   "edges": [
-    {"start": "A", "end": "C", "weight": 7},
-    {"start": "A", "end": "D", "weight": 2},
-    {"start": "B", "end": "C", "weight": 3},
-    {"start": "B", "end": "D", "weight": 1},
-    {"start": "C", "end": "E", "weight": 4},
-    {"start": "D", "end": "E", "weight": 5}
+    { "start": "A", "end": "B", "weight": 0.7 },
+    { "start": "A", "end": "C", "weight": 0.2 },
+    { "start": "B", "end": "D", "weight": 0.5 },
+    { "start": "C", "end": "D", "weight": 0.3 },
+    { "start": "C", "end": "E", "weight": 0.4 },
+    { "start": "D", "end": "F", "weight": 0.6 }
   ]
 }
