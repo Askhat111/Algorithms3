@@ -1,9 +1,0 @@
-{
-  "nodes": ["X", "Y", "Z", "W", "Q"],
-  "edges": [
-    {"from": "X", "to": "Y", "weight": 3},
-    {"from": "Y", "to": "Z", "weight": 7},
-    {"from": "Z", "to": "W", "weight": 2},
-    {"from": "W", "to": "Q", "weight": 8}
-  ]
-}
