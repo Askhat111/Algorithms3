@@ -1,0 +1,19 @@
+{
+  "vertices": 3,
+  "edges": 3,
+  "totalCost": 7.0,
+  "operationCount": 2,
+  "executionTimeMs": 0,
+  "mstEdges": [
+    {
+      "from": "B",
+      "to": "C",
+      "weight": 2.0
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "weight": 5.0
+    }
+  ]
+}
