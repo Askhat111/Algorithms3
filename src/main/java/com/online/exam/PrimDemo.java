@@ -135,10 +135,10 @@ public class PrimDemo {
         try (PrintWriter pw = new PrintWriter(outPath)) {
             pw.println("graph G {");
             for (String vertex : G.getVertices()) {
-                pw.printf("  %s;%n", vertex);  // Добавляем вершины
+                pw.printf("  %s;%n", vertex);
             }
             for (Edge e : G.getEdges()) {
-                pw.printf("  %s -- %s [label=\"%.2f\"];%n", e.start, e.end, e.weight);  // Добавляем рёбра
+                pw.printf("  %s -- %s [label=\"%.2f\"];%n", e.start, e.end, e.weight);
             }
             pw.println("}");
         }
